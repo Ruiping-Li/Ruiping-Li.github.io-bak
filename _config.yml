@@ -8,7 +8,8 @@ keyword: "李瑞平, Daping, 博客, 个人网站, 互联网"
 url: "https://ruiping-li.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-
+# Publish posts or collection documents with a future date.
+future: true
 
 # SNS settings
 RSS: True
@@ -33,7 +34,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
